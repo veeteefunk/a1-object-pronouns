@@ -25,16 +25,16 @@ form.addEventListener('submit', function(e) {
     const ex9 = document.getElementById("ex9").value
     const ex10 = document.getElementById("ex10").value
 
-    ex1 == "those" ? iconAnswer1.classList.add("fa-circle-check") : iconAnswer1.classList.add("fa-circle-xmark");
-    ex2 == "this" ? iconAnswer2.classList.add("fa-circle-check") : iconAnswer2.classList.add("fa-circle-xmark");
-    ex3 == "that" ? iconAnswer3.classList.add("fa-circle-check") : iconAnswer3.classList.add("fa-circle-xmark");
-    ex4 == "those" ? iconAnswer4.classList.add("fa-circle-check") : iconAnswer4.classList.add("fa-circle-xmark");
-    ex5 == "these" ? iconAnswer5.classList.add("fa-circle-check") : iconAnswer5.classList.add("fa-circle-xmark");
-    ex6 == "this" ? iconAnswer6.classList.add("fa-circle-check") : iconAnswer6.classList.add("fa-circle-xmark");
-    ex7 == "those" ? iconAnswer7.classList.add("fa-circle-check") : iconAnswer7.classList.add("fa-circle-xmark");
-    ex8 == "this" ? iconAnswer8.classList.add("fa-circle-check") : iconAnswer8.classList.add("fa-circle-xmark");
-    ex9 == "those" ? iconAnswer9.classList.add("fa-circle-check") : iconAnswer9.classList.add("fa-circle-xmark");
-    ex10 == "this" ? iconAnswer10.classList.add("fa-circle-check") : iconAnswer10.classList.add("fa-circle-xmark");
+    ex1 == "it" ? iconAnswer1.classList.add("fa-circle-check") : iconAnswer1.classList.add("fa-circle-xmark");
+    ex2 == "me" ? iconAnswer2.classList.add("fa-circle-check") : iconAnswer2.classList.add("fa-circle-xmark");
+    ex3 == "them" ? iconAnswer3.classList.add("fa-circle-check") : iconAnswer3.classList.add("fa-circle-xmark");
+    ex4 == "them" ? iconAnswer4.classList.add("fa-circle-check") : iconAnswer4.classList.add("fa-circle-xmark");
+    ex5 == "him" ? iconAnswer5.classList.add("fa-circle-check") : iconAnswer5.classList.add("fa-circle-xmark");
+    ex6 == "us" ? iconAnswer6.classList.add("fa-circle-check") : iconAnswer6.classList.add("fa-circle-xmark");
+    ex7 == "her" ? iconAnswer7.classList.add("fa-circle-check") : iconAnswer7.classList.add("fa-circle-xmark");
+    ex8 == "him" ? iconAnswer8.classList.add("fa-circle-check") : iconAnswer8.classList.add("fa-circle-xmark");
+    ex9 == "it" ? iconAnswer9.classList.add("fa-circle-check") : iconAnswer9.classList.add("fa-circle-xmark");
+    ex10 == "us" ? iconAnswer10.classList.add("fa-circle-check") : iconAnswer10.classList.add("fa-circle-xmark");
 });
 
 tryAgain.addEventListener('click', function(e) {
